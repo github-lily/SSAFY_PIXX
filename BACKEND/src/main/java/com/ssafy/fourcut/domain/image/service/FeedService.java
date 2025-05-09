@@ -71,7 +71,7 @@ public class FeedService {
                 .orElse("");
         String thumb = rawKey.isEmpty()
                 ? ""
-                : cloudFrontService.generateSignedCloudFrontUrl(rawKey);
+                : cloudFrontService.generateSignedCloudFrontUrl(rawKey, "get");
         return new FeedItemResponse(
                 feed.getFeedId(),
                 thumb,
@@ -90,7 +90,7 @@ public class FeedService {
 
         List<FeedImageResponse> images = feed.getImages().stream()
                 .map(img -> {
-                    String signed = cloudFrontService.generateSignedCloudFrontUrl(img.getImageUrl());
+                    String signed = cloudFrontService.generateSignedCloudFrontUrl(img.getImageUrl(), "get");
                     return new FeedImageResponse(
                             img.getImageId(),
                             signed,

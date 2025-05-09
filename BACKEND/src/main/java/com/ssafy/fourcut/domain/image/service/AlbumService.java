@@ -128,7 +128,7 @@ public class AlbumService {
                             .orElse("");
                     String thumb = rawKey.isEmpty()
                             ? ""
-                            : cloudFrontService.generateSignedCloudFrontUrl(rawKey);
+                            : cloudFrontService.generateSignedCloudFrontUrl(rawKey, "get");
                     return new FeedItemResponse(
                             f.getFeedId(),
                             thumb,
