@@ -7,7 +7,9 @@ import Menubar from "@/components/Menubar";
 
 export default function Layout({ children }: { children: ReactNode }) {
   const pathname = usePathname();
-  const isDetailPage = /^\/(feed|album|people)\/[^/]+$/.test(pathname); // feed 또는 album 디테일 페이지
+
+  // feed/:id, feed/brand/:id, album/:id, people/:id
+  const isDetailPage = /^\/(feed\/\d+|feed\/brand\/[^/]+|album\/[^/]+|people\/[^/]+)$/.test(pathname);
 
   return (
     <div>
