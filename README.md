@@ -1,5 +1,5 @@
 # PIXX
-![PIXX_main](/uploads/a16ab69d5690f9c1757cc4b7f1378aee/PIXX_main.png)
+![Image](https://github.com/user-attachments/assets/4225263c-eb27-4287-94ba-33893a2ab69f)
 ### PIXX 링크 : https://www.film-moa.com
 ## 목차
 1. [프로젝트 콘셉트](#프로젝트-콘셉트)
@@ -119,7 +119,7 @@
 
 
 ## 서비스 아키텍처
-![architecture](/uploads/20b1626a2edc018e027e53641e14e5c5/architecture.png)
+![Image](https://github.com/user-attachments/assets/b13c8f1c-e7d4-4e60-ac3e-90e8b952bb1f)
 
 ## 설계 문서
 
@@ -134,7 +134,7 @@
 ### [API 명세서](https://bottlenose-twist-ec3.notion.site/API-1ddb7e3f38b880c3a12fdecf25504498?pvs=4) 
 
 ## ERD
-![ERD](/uploads/5026f43f3702a3cbab36f26e5822ef43/ERD.png)
+![Image](https://github.com/user-attachments/assets/2e8abe72-e8bd-4055-8622-9578dc82cb37)
 
 ## 프로젝트 구조
 ### Frontend
